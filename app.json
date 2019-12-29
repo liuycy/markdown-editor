@@ -1,29 +1,10 @@
 {
-  "pages": ["pages/index/index", "pages/user/index"],
+  "pages": ["pages/index/index"],
   "window": {
     "navigationBarBackgroundColor": "#869d9d",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "Markdown Editor",
     "backgroundColor": "#869d9d"
-  },
-  "tabBar": {
-    "color": "#74787a",
-    "selectedColor": "#000000",
-    "backgroundColor": "#869d9d",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "文件",
-        "iconPath": "asserts/icons/file.png",
-        "selectedIconPath": "asserts/icons/file_hl.png"
-      },
-      {
-        "pagePath": "pages/user/index",
-        "text": "设置",
-        "iconPath": "asserts/icons/user.png",
-        "selectedIconPath": "asserts/icons/user_hl.png"
-      }
-    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

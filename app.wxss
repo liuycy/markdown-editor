@@ -2,7 +2,7 @@
  * 这里定义一些 全局样式, 工具样式
  */
 
-.page {
+page {
   background-color: #869d9d;
   height: 100vh;
 }

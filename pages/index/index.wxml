@@ -1,1 +1,10 @@
-<view class="page"></view>
+<view class="page">
+  <view class="file-list">
+    <view class="file-item"></view>
+  </view>
+  <view class="action-bar">
+    <view class="create-action">
+      <view class="create-btn"></view>
+    </view>
+  </view>
+</view>
