@@ -13,6 +13,8 @@
 		"coverView": true,
 		"nodeModules": true,
 		"autoAudits": false,
+		"showShadowRootInWxmlPanel": false,
+		"scopeDataCheck": false,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
 		"uploadWithSourceMap": true,

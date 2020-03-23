@@ -1,11 +1,10 @@
 {
-  "pages": ["pages/index/index"],
+  "pages": ["pages/home/index"],
   "window": {
-    "navigationBarBackgroundColor": "#869d9d",
+    "navigationBarBackgroundColor": "#f6f6f6",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "Markdown Editor",
-    "backgroundColor": "#869d9d"
+    "backgroundColor": "#f6f6f6"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

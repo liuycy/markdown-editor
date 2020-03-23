@@ -1,8 +1,4 @@
-/**
- * 这里定义一些 全局样式, 工具样式
- */
-
 page {
-  background-color: #869d9d;
+  background-color: #f6f6f6;
   height: 100vh;
 }

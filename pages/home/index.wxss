@@ -1,0 +1,9 @@
+.action-add {
+  position: fixed;
+  bottom: 0;
+}
+
+.action-add > button {
+  height: 40rpx;
+  width: 40rpx;
+}

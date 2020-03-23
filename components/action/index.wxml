@@ -1,0 +1,12 @@
+<view class="action">
+  <view class="action-button" bind:tap="toggleMenu" />
+  <view bind:tap="trigger" data-event="add" class="action-menu {{menuVisible && 'action-menu_active'}}">
+    <text class="iconfont icon-add"></text>
+  </view>
+  <view bind:tap="trigger" data-event="list" class="action-menu {{menuVisible && 'action-menu_active'}}">
+    <text class="iconfont icon-list"></text>
+  </view>
+  <view bind:tap="trigger" data-event="setting" class="action-menu {{menuVisible && 'action-menu_active'}}">
+    <text class="iconfont icon-setting"></text>
+  </view>
+</view>

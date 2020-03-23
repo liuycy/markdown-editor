@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "action": "../../components/action/index",
+    "van-collapse": "@vant/weapp/collapse",
+    "van-collapse-item": "@vant/weapp/collapse-item"
+  }
+}

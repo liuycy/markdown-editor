@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'iconfont'; /* project id 1708920 */
+  src: url('//at.alicdn.com/t/font_1708920_17u71lw9xlt.eot');
+  src: url('//at.alicdn.com/t/font_1708920_17u71lw9xlt.eot?#iefix')
+      format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1708920_17u71lw9xlt.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1708920_17u71lw9xlt.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1708920_17u71lw9xlt.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1708920_17u71lw9xlt.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 1em;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add:before {
+  content: '\e698';
+}
+
+.icon-list:before {
+  content: '\e6e2';
+}
+
+.icon-setting:before {
+  content: '\e6f0';
+}
+
+.action {
+  position: fixed;
+  bottom: 50rpx;
+  right: 50rpx;
+  padding: 15rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-button {
+  box-sizing: border-box;
+  opacity: 0.6;
+  border: 1px solid #999;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  background: radial-gradient(#333 0, #333 45%, transparent 55%, #333 60%);
+  box-shadow: 2px 2px 5px 2px #666;
+}
+
+.action-button:active {
+  background: radial-gradient(#999 0, #999 45%, transparent 55%, #999 60%);
+  box-shadow: none;
+}
+
+.action-menu {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  background-color: #f9f9f9;
+  box-shadow: 1px 1px 2px 1px #666;
+  border-radius: 50%;
+  width: 80rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 80rpx;
+  transition: all 0.3s;
+}
+
+.action-menu:active {
+  background-color: #999;
+  box-shadow: none;
+}
+
+.action-menu_active {
+  z-index: 0;
+  opacity: 1;
+}
+.action-menu_active:nth-of-type(2) {
+  transform: translate(0, -135rpx) rotate(720deg);
+}
+.action-menu_active:nth-of-type(3) {
+  transform: translate(-95.5rpx, -95.5rpx) rotate(720deg);
+}
+.action-menu_active:nth-of-type(4) {
+  transform: translate(-135rpx, 0) rotate(720deg);
+}
