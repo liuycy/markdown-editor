@@ -1,5 +1,5 @@
 {
-  "pages": ["pages/home/index"],
+  "pages": ["pages/editor/index", "pages/home/index"],
   "window": {
     "navigationBarBackgroundColor": "#f6f6f6",
     "navigationBarTextStyle": "black",

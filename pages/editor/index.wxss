@@ -1,0 +1,49 @@
+@import 'iconfont.wxss';
+
+.editor-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editor {
+  border-right: 1px solid #ccc;
+  padding: 10rpx;
+  padding-bottom: 30rpx;
+  width: 100vw;
+}
+
+.action-bar {
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-left: 10rpx;
+  margin-right: 30rpx;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.action-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.action {
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-bottom: 10rpx;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50rpx;
+  height: 50rpx;
+  font-size: 32rpx;
+  border-radius: 20%;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  color: #f6f6f6;
+}
+
+.action:active,
+.action.active {
+  background-color: #fff;
+  color: #111;
+}

@@ -1,11 +1,15 @@
 Page({
   handleActionAdd(ev) {
-    console.log(ev)
+    wx.navigateTo({
+      url: '../editor/index'
+    })
   },
   handleActionList(ev) {
     console.log(ev)
   },
   handleActionSetting(ev) {
-    console.log(ev)
+    wx.navigateTo({
+      url: '../setting/index'
+    })
   }
 })

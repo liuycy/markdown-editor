@@ -1,0 +1,8 @@
+<view class="editor-box">
+  <editor id="editor" class="editor" style="height: {{editorHeight}}px" placeholder="随便写点什么吧.." bindready="getEditorContext" bindfocus="onEditorFocus" bindstatuschange="onStatusChange" />
+  <view catch:touchend="handleAction" class="action-bar" style="height: {{editorHeight}}px)">
+    <i class="action action-jiacu {{activeActions['bold'] ? 'active' : ''}}" data-action="bold"></i>
+    <i class="action action-xieti {{activeActions['italic'] ? 'active' : ''}}" data-action="italic"></i>
+    <i class="action action-xiahuaxian {{activeActions['underline'] ? 'active' : ''}}" data-action="underline"></i>
+  </view>
+</view>
